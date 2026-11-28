@@ -1,8 +1,8 @@
 name: astrbot_plugin_acemusic_acedatacloud
-display_name: ACE Music by Ace Data Cloud
+display_name: ACE Music
 desc: Generate songs and lyrics, create references, and read ACE Music tasks from AstrBot.
 short_desc: ACE Music generation and task tools
-version: 0.1.0
+version: 0.1.1
 author: acedatacloud
 repo: https://github.com/AceDataCloud/ACEMusicAstrBot
 astrbot_version: '>=4.28.2,<5'
