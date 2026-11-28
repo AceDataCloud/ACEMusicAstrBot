@@ -1,5 +1,7 @@
 # ACE Music for AstrBot
 
+<img src="logo.png" width="72" alt="ACE Music">
+
 Install this repository from URL through the AstrBot plugin manager. Configure `api_key` in the plugin settings and enable its tools for the assistant.
 
 ```sh
@@ -7,7 +9,7 @@ python -m pip install -r requirements.txt "astrbot>=4.28.2,<5"
 python -m unittest discover
 ```
 
-Get an [application API key](https://platform.acedata.cloud/console/applications) with ACE Music access. Enter the raw key in the host's credential setting or server environment. Keep keys out of prompts, shared workflows and commits.
+Get an [application API key](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen) with ACE Music access. Enter the raw key in the host's credential setting or server environment. Keep keys out of prompts, shared workflows and commits.
 
 | Action | Inputs or result |
 | --- | --- |
@@ -20,4 +22,4 @@ Get an [application API key](https://platform.acedata.cloud/console/applications
 | Retrieve task / multiple tasks | Use the original task IDs. |
 | List task history | Optional page and items per page. |
 
-Audio creation, reference import and writing lyrics are separately priced. Use the creation tool once, save its `task_id`, then retrieve the same task. If the connection breaks before a task ID arrives, inspect task history before resubmitting. The task state and `response` carry completion and partial failures. A partial result can contain one usable track. Play delivered tracks from `response.data[].audio_url`. Read [ACE Music API documentation](https://github.com/AceDataCloud/ACEMusicAPI) and [current pricing](https://platform.acedata.cloud/services/024e09b4-52cf-5e98-a91a-efedf43104c4).
+Audio creation, reference import and writing lyrics are separately priced. Use the creation tool once, save its `task_id`, then retrieve the same task. If the connection breaks before a task ID arrives, inspect task history before resubmitting. The task state and `response` carry completion and partial failures. A partial result can contain one usable track. Play delivered tracks from `response.data[].audio_url`. Read [ACE Music API documentation](https://github.com/AceDataCloud/ACEMusicAPI) and [current pricing](https://platform.acedata.cloud/services/024e09b4-52cf-5e98-a91a-efedf43104c4?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen).
